@@ -17,4 +17,9 @@ public class FizzBuzz {
     List<String> fizzBuzz = new ArrayList<>();
     return fizzBuzz;
   }
+  
+  public static void main(String[] args) {
+    List<String> fizzBuzz = evaluateFizzBuzz(1, 10);
+    System.out.println(fizzBuzz.size());
+  }
 }
