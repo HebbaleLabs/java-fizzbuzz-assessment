@@ -7,7 +7,7 @@ import java.util.List;
  * Created by hbhargav on 10/12/18.
  */
 public class FizzBuzz {
-  public List<String> evaluateFizzBuzz(int min, int max) {
+  public static List<String> evaluateFizzBuzz(int min, int max) {
     /*
      * NOTE:
      * 1. Write your solution within this method
