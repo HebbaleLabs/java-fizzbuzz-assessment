@@ -20,7 +20,7 @@ public class FizzBuzz {
   }
   
   public static void main(String[] args) {
-    List<String> fizzBuzz = evaluateFizzBuzz(1, 10);
-    System.out.println(fizzBuzz.size());
+    List<String> fizzBuzz = evaluateFizzBuzz(-50, 0);
+    System.out.println(fizzBuzz);
   }
 }
